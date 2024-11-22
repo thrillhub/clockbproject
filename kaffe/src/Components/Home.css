@@ -1,0 +1,9 @@
+.custom-img {
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.swiper-slide {
+    max-width: 300px;
+}

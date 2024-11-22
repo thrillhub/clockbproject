@@ -1,0 +1,46 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.card-container {
+    position: relative;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-body-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
